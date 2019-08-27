@@ -12,6 +12,8 @@ import { AboutComponent } from './about/about.component';
 import { NengloComponent } from './nenglo/nenglo.component';
 import { ContactComponent } from './contact/contact.component';
 import {FlexLayoutModule} from "@angular/flex-layout";
+import {MatCardModule} from "@angular/material";
+
 
 @NgModule({
   declarations: [
@@ -20,14 +22,16 @@ import {FlexLayoutModule} from "@angular/flex-layout";
     HomeComponent,
     AboutComponent,
     NengloComponent,
-    ContactComponent
+    ContactComponent,
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    MatCardModule
 
   ],
   providers: [],
