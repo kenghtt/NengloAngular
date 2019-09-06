@@ -1,5 +1,6 @@
 header {
-  background: #7700FF;
+  //background: #7700FF;
+  background: black;
 
   .logo {
     font-weight: bold;
@@ -25,6 +26,7 @@ header {
 
           &:hover {
             background: #8E2BFF;
+            //background: none;
 
           }
         }
@@ -53,4 +55,13 @@ header {
 
 }
 
+.timelineMenuBar {
+  color: white
 
+}
+
+header{
+  .container{
+
+  }
+}
