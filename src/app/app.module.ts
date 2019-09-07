@@ -15,13 +15,8 @@ import {FlexLayoutModule} from "@angular/flex-layout";
 import {MatCardModule} from "@angular/material";
 import { ThirtiesComponent } from './nenglo/thirties/thirties.component';
 import { YearlyNavComponent } from './nenglo/yearly-nav/yearly-nav.component';
-import { FortiesComponent } from './nenglo/forties/forties.component';
-import { FiftiesComponent } from './nenglo/fifties/fifties.component';
-import { SixtiesComponent } from './nenglo/sixties/sixties.component';
-import { SeventiesComponent } from './nenglo/seventies/seventies.component';
-import { EightiesComponent } from './nenglo/eighties/eighties.component';
-import { NinetiesComponent } from './nenglo/nineties/nineties.component';
 import { PresentDayComponent } from './nenglo/present-day/present-day.component';
+import { HomeNavComponent } from './nenglo/home-nav/home-nav.component';
 
 
 @NgModule({
@@ -34,13 +29,8 @@ import { PresentDayComponent } from './nenglo/present-day/present-day.component'
     ContactComponent,
     ThirtiesComponent,
     YearlyNavComponent,
-    FortiesComponent,
-    FiftiesComponent,
-    SixtiesComponent,
-    SeventiesComponent,
-    EightiesComponent,
-    NinetiesComponent,
     PresentDayComponent,
+    HomeNavComponent,
 
   ],
   imports: [
