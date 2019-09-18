@@ -12,23 +12,12 @@
 
 
 
-## [START runtime]
-#runtime: nodejs10
-#handlers:
-#- url: /
-#  static_files: nenglo/index.html
-#  upload: nenglo/index.html
-#- url: /
-#  static_dir: dist/
-## [END runtime]
-
-
+# [START runtime]
 runtime: nodejs10
-api_version: 1
-threadsafe: true
 handlers:
-– url: /
-static_files: nenglo/index.html
-upload: nenglo/index.html
-– url: /
-static_dir: nenglo
+- url: /
+  static_files: nenglo/index.html
+  upload: nenglo/index.html
+- url: /
+  static_dir: dist/
+# [END runtime]
