@@ -16,8 +16,8 @@
 runtime: nodejs10
 handlers:
 - url: /
-  static_files: dist/nenglo/index.html
-  upload: dist/nenglo/index.html
+  static_files: dist/index.html
+  upload: dist/index.html
 - url: /
   static_dir: dist
 
