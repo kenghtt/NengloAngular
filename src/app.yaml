@@ -1,15 +1,3 @@
-#runtime: python27
-#api_version: 1
-#threadsafe: true
-#handlers:
-#– url: /
-#static_files: nenglo/index.html
-#upload: nenglo/index.html
-#– url: /
-#static_dir: nenglo
-#
-#
-
 
 
 ## [START runtime]
@@ -19,30 +7,20 @@
 #  static_files: nenglo/index.html
 #  upload: nenglo/index.html
 #- url: /
-#  static_dir: /
+#  static_dir: nenglo
 ## [END runtime]
 
-# [START runtime]
+
+
+
 runtime: nodejs10
+api_version: 1
+threadsafe: true
 handlers:
 - url: /
-  static_files: nenglo/index.html
-  upload: nenglo/index.html
+  static_files: dist/nenglo/index.html
+  upload: dist/nenglo/index.html
 - url: /
-  static_dir: nenglo
-# [END runtime]
-
-
-
-
-#runtime: nodejs10
-#api_version: 1
-#threadsafe: true
-#handlers:
-#– url: /
-#static_files: nenglo/index.html
-#upload: nenglo/index.html
-#– url: /
-#static_dir: nenglo
+  static_dir: dist
 
 
