@@ -16,10 +16,10 @@
 runtime: nodejs10
 handlers:
 - url: /
-  static_files: nenglo/index.html
+  static_files: dist/nenglo/index.html
   upload: nenglo/index.html
 - url: /
-  static_dir: dist/
+  static_dir: /
 # [END runtime]
 
 
