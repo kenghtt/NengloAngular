@@ -14,10 +14,10 @@
 
 
 runtime: nodejs10
-handlers:
-- url: /
-  static_files: dist/nenglo/index.html
-  upload: dist//nenglo/index.html
-- url: /
-  static_dir: dist
-
+#handlers:
+#- url: /
+#  static_files: dist/nenglo/index.html
+#  upload: dist//nenglo/index.html
+#- url: /
+#  static_dir: dist
+#
