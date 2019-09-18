@@ -1,9 +1,23 @@
-runtime: python27
-api_version: 1
-threadsafe: true
+#runtime: python27
+#api_version: 1
+#threadsafe: true
+#handlers:
+#– url: /
+#static_files: nenglo/index.html
+#upload: nenglo/index.html
+#– url: /
+#static_dir: nenglo
+#
+#
+
+
+
+# [START runtime]
+runtime: nodejs8
 handlers:
-– url: /
-static_files: nenglo/index.html
-upload: nenglo/index.html
-– url: /
-static_dir: nenglo
+- url: /
+  static_files: nenglo/index.html
+  upload: nenglo/index.html
+- url: /
+  static_dir: dist/
+# [END runtime]
