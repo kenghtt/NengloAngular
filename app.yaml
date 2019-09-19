@@ -14,3 +14,14 @@
 # [START gae_quickstart_yaml]
 runtime: nodejs10
 # [END gae_quickstart_yaml]
+
+
+
+runtime: nodejs10
+handlers:
+- url: /
+  static_files: dist/nenglo/index.html
+  upload: dist/nenglo/index.html
+- url: /
+  static_dir: dist
+
