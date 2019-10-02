@@ -6,11 +6,18 @@ import {earlyDaysComponent} from "./nenglo/earlyDays/earlyDays.component";
 import {MilitaryComponent} from "./nenglo/military/military.component";
 import {PostWarComponent} from "./nenglo/post-war/post-war.component";
 import {WhoWeAreComponent} from "./about/who-we-are/who-we-are.component";
+import {GalleryComponent} from "./gallery/gallery.component";
+import {GalleryErrorPageComponent} from "./gallery/gallery-error-page/gallery-error-page.component";
 
 
 const routes: Routes = [
   // { path: '', component: HomeComponent },
   {path: '', component: NengloComponent},  //routing to the /nenglo page rather than the '/' page
+  {path: 'gallery', component: GalleryComponent,
+    children: [
+      {path: 'gallery-error-page', component: GalleryErrorPageComponent}
+    ]
+  },  //routing to the /nenglo page rather than the '/' page
 
   {
     path: 'about', component: AboutComponent,

@@ -20,6 +20,9 @@ import { HomeNavComponent } from './nenglo/home-nav/home-nav.component';
 import { PostWarComponent } from './nenglo/post-war/post-war.component';
 import { BlackBarNavComponent} from './about/black-bar-nav/black-bar-nav.component';
 import { WhoWeAreComponent } from './about/who-we-are/who-we-are.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { BlackBarGalleryComponent } from './gallery/black-bar-gallery/black-bar-gallery.component';
+import { GalleryErrorPageComponent } from './gallery/gallery-error-page/gallery-error-page.component';
 
 
 @NgModule({
@@ -37,6 +40,9 @@ import { WhoWeAreComponent } from './about/who-we-are/who-we-are.component';
     PostWarComponent,
     BlackBarNavComponent,
     WhoWeAreComponent,
+    GalleryComponent,
+    BlackBarGalleryComponent,
+    GalleryErrorPageComponent,
 
   ],
   imports: [
