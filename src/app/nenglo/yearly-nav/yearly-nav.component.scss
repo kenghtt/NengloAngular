@@ -35,24 +35,32 @@ header {
   }
 }
 
-.jeremy {
-  padding: 0px 10px 10px 0px;
-  flex: 1 1 25%;
-  box-sizing: border-box;
-  max-width: 25%;
+//.jeremy {
+//  padding: 0px 10px 10px 0px;
+//  flex: 1 1 25%;
+//  box-sizing: border-box;
+//  max-width: 25%;
+//
+//}
 
-}
+//.yer {
+//  height: 100%;
+//  min-height: 100%;
+//  min-width: 100%;
+//  width: 100%;
+//  align-items: center;
+//  flex-direction: row;
+//  box-sizing: border-box;
+//  display: flex;
+//
+//}
 
-.yer {
-  height: 100%;
-  min-height: 100%;
-  min-width: 100%;
-  width: 100%;
-  align-items: center;
-  flex-direction: row;
-  box-sizing: border-box;
-  display: flex;
+header {
+  .container {
+    //padding:  1% 23.400px 1% 23.400px;
+    padding: 10px 23.400px 10px 23.400px;
 
+  }
 }
 
 .timelineMenuBar {

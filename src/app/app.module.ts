@@ -13,10 +13,11 @@ import { NengloComponent } from './nenglo/nenglo.component';
 import { ContactComponent } from './contact/contact.component';
 import {FlexLayoutModule} from "@angular/flex-layout";
 import {MatCardModule} from "@angular/material";
-import { ThirtiesComponent } from './nenglo/thirties/thirties.component';
+import { earlyDaysComponent } from './nenglo/earlyDays/earlyDays.component';
 import { YearlyNavComponent } from './nenglo/yearly-nav/yearly-nav.component';
-import { PresentDayComponent } from './nenglo/present-day/present-day.component';
+import {MilitaryComponent} from './nenglo/military/military.component';
 import { HomeNavComponent } from './nenglo/home-nav/home-nav.component';
+import { PostWarComponent } from './nenglo/post-war/post-war.component';
 
 
 @NgModule({
@@ -27,10 +28,11 @@ import { HomeNavComponent } from './nenglo/home-nav/home-nav.component';
     AboutComponent,
     NengloComponent,
     ContactComponent,
-    ThirtiesComponent,
+    earlyDaysComponent,
     YearlyNavComponent,
-    PresentDayComponent,
+    MilitaryComponent,
     HomeNavComponent,
+    PostWarComponent,
 
   ],
   imports: [

@@ -1,10 +1,10 @@
 // import { NgModule } from '@angular/core';
 // import { Routes, RouterModule } from '@angular/router';
-// import {ThirtiesComponent} from "./thirties/thirties.component";
+// import {earlyDaysComponent} from "./earlyDays/earlyDays.component";
 //
 //
 // const routes: Routes = [
-//   { path: '', component: ThirtiesComponent }
+//   { path: '', component: earlyDaysComponent }
 //
 //   ];
 //
