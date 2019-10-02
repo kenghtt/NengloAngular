@@ -18,6 +18,8 @@ import { YearlyNavComponent } from './nenglo/yearly-nav/yearly-nav.component';
 import {MilitaryComponent} from './nenglo/military/military.component';
 import { HomeNavComponent } from './nenglo/home-nav/home-nav.component';
 import { PostWarComponent } from './nenglo/post-war/post-war.component';
+import { BlackBarNavComponent} from './about/black-bar-nav/black-bar-nav.component';
+import { WhoWeAreComponent } from './about/who-we-are/who-we-are.component';
 
 
 @NgModule({
@@ -33,6 +35,8 @@ import { PostWarComponent } from './nenglo/post-war/post-war.component';
     MilitaryComponent,
     HomeNavComponent,
     PostWarComponent,
+    BlackBarNavComponent,
+    WhoWeAreComponent,
 
   ],
   imports: [

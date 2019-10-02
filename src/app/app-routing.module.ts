@@ -1,27 +1,32 @@
-import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
-import {HomeComponent} from "./home/home.component";
+import {NgModule} from '@angular/core';
+import {RouterModule, Routes} from '@angular/router';
 import {AboutComponent} from "./about/about.component";
-import {ContactComponent} from "./contact/contact.component";
 import {NengloComponent} from "./nenglo/nenglo.component";
 import {earlyDaysComponent} from "./nenglo/earlyDays/earlyDays.component";
 import {MilitaryComponent} from "./nenglo/military/military.component";
 import {PostWarComponent} from "./nenglo/post-war/post-war.component";
+import {WhoWeAreComponent} from "./about/who-we-are/who-we-are.component";
 
 
 const routes: Routes = [
   // { path: '', component: HomeComponent },
-  { path: '', component: NengloComponent },  //routing to the /nenglo page rather than the '/' page
+  {path: '', component: NengloComponent},  //routing to the /nenglo page rather than the '/' page
 
-  { path: 'about', component: AboutComponent },
+  {
+    path: 'about', component: AboutComponent,
+    children: [
+      {path: 'who-we-are', component: WhoWeAreComponent}
+    ]
+
+  },
+
   // { path: 'contact', component: ContactComponent },
   {
-    path: 'nenglo',
-    component: NengloComponent,
+    path: 'nenglo', component: NengloComponent,
     children: [
       {path: 'earlyDays', component: earlyDaysComponent},
       {path: 'military', component: MilitaryComponent},
-      {path: 'post-war', component:PostWarComponent}
+      {path: 'post-war', component: PostWarComponent}
 
     ]
 
@@ -33,4 +38,5 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {
+}
